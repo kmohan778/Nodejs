@@ -24,7 +24,7 @@ spec:
 apiVersion: v1
 kind: Service 
 metadata:
-  name: hello-world-svc
+  name: hello-world-srvc
   labels:
     app: hello-world
 spec:
