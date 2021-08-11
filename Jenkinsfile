@@ -38,5 +38,4 @@ pipeline {
       steps {
           kubernetesDeploy(configs: "hello.yaml", kubeconfigId: "k8s")
         }
-      }
     }
